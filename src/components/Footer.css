@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information p {
+    color: rgb(246, 210, 255);
+    white-space: nowrap; 
+}
