@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px; /* Defina a altura desejada para o rodapé */
 }
 
 .information p {
     color: rgb(246, 210, 255);
-    white-space: nowrap; 
+    margin: 0; /* Remova as margens padrão do parágrafo */
 }
