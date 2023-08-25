@@ -7,5 +7,12 @@
 
 .information p {
     color: rgb(246, 210, 255);
+    font-size: 1.1rem;
     margin: 0; /* Remova as margens padrão do parágrafo */
+}
+
+@media screen and (max-width: 800px) {
+    .information {
+        font-size: 1rem;
+    }
 }
